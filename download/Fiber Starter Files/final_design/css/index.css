@@ -1,0 +1,408 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Inter';
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/*------------------UTILITY-CLASS----------------------------*/
+
+.container{
+    
+    max-width: 1200px;
+    width: 80%;
+    margin: auto;
+}
+.active{
+    border: 2px solid #4D13D1;
+    padding: 1rem;
+    border-radius: 6px;
+    color: #ffffff;
+    background-color: #4D13D1;
+}
+
+.my-1{
+    margin-top: 60px;
+}
+/*-------------------HERO-PAGE----------------------*/
+
+.hero-page{
+    background-color: #FBF8F3;
+    padding-top: 3rem;
+}
+
+.nav-bar{
+    display: flex;
+}
+.logo{
+    flex-basis: 30%;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.nav-links{
+    flex-basis: 40%;
+}
+
+.links{
+    display: flex;
+    list-style: none;
+   
+    font-size: 20px;
+}
+ .links a{
+     text-decoration: none;
+     color: #000000;
+     margin: 0 15px;
+ }
+.login-signup{
+    flex-basis: 30%;
+}
+
+.user-links{
+    display: flex;
+    list-style: none;
+    font-weight: 700;
+    font-size: 20px;
+    float: right;
+    
+}
+.user-links a{
+    text-decoration: none;
+    margin: 0 20px;
+}
+
+.nonActive{
+    color: #000000;
+}
+
+.home-section{
+    display: flex;
+    align-items: center;
+}
+
+.home-content{
+    flex-basis: 50%;
+}
+
+.home-image{
+    flex-basis: 50%;
+}
+
+.home-image img{
+    width: 600px;
+    float: right;
+}
+
+.rating{
+    display: flex
+}
+
+.rating-content{
+    margin-left: 10px;
+}
+
+.heading{
+    font-size: 3.6rem;
+    font-weight: 800;
+    margin: 20px 0;
+}
+.text{
+    margin-bottom: 40px;
+    font-size: 1.3rem;
+    color: #7C7B7B;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.home-buttons{
+    margin-bottom: 40px;
+}
+
+.homeactiveLink{
+    text-decoration: none;
+    font-weight: 700;
+    margin-right: 40px;
+    font-size: 1.2rem;
+}
+.nonactiveHomeLink{
+    color: #4D13D1;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.homeFeatures{
+    display: flex;
+    align-items: center;
+}
+
+.homeFeatures img{
+    margin-right: 10px;
+}
+
+.featureText{
+    margin-right: 10px;
+}
+
+.text-feat{
+    color: #7C7B7B;
+    font-weight: 500;
+}
+
+/*------------------ABOUT-SECTION---------------------------*/
+
+
+.about-section{
+    display: flex;
+    flex-direction: column;
+}
+
+.small-text{
+    color: #4D13D1;
+    font-weight: 700;
+}
+.large-text{
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.about-2{
+    display: flex;
+    margin-top: 40px;
+
+}
+
+.about-2 img{
+    margin-bottom: 10px;
+}
+
+.services{
+    flex-basis: 30%;
+    margin: auto;
+}
+
+.serices-heading{
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.services-text{
+    color: #7C7B7B;
+    line-height: 1.5;
+    font-weight: 500;
+}
+
+/*-------------TRIAL-SECTION--------------------*/
+
+.trialsection{
+    display: flex;
+    background-color: #4D13D1;
+    padding-top: 3rem;
+    padding-right: 3rem;
+    padding-left: 3rem;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.trial-content{
+    flex-basis: 50%;
+    
+}
+
+.trial-heading{
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.trial-text{
+    color: #E2D8FB;
+    margin:30px 0;
+    font-size: 1.5rem;
+}
+
+.trialactiveLink{
+   border: 2px soli #4D13D1;
+   padding: 1rem;
+   text-decoration: none;
+   color: #4D13D1;
+   font-weight: 700;
+   background-color: #ffffff;
+   border-radius: 5px;
+}
+
+.trial-image{
+    flex-basis: 50%;
+}
+
+.trial-image img{
+    width: 550px;
+}
+
+/*--------------Testimonial-----------------*/
+
+.testi-content{
+    display: flex;
+    flex-direction: column;
+}
+
+.testi-card{
+    padding: 1.5rem;
+    border: 1px solid #E2E2E2;
+    width: 400px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 11px #e2e2e2;
+    margin-right: 20px;
+}
+
+.testi-card .user{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.testi-card .user img{
+    margin-right: 10px;
+}
+
+.user-content p {
+    margin-bottom: 30px;
+    font-weight: 800px;
+}
+
+.user-name{
+    color: #4D13D1;
+    font-weight: 600;
+}
+
+
+.user-testi-link{
+    border: 2px solid #4D13D1;
+    padding: 1rem;
+    justify-content: center;
+    width: 300px;
+    background-color: #ffffff;
+    font-size: 20px;
+    border-radius: 5px;
+    font-weight: 600;
+    color: #4D13D1;
+    cursor: pointer;
+}
+
+/*---------------FOOTER SECTION---------------*/
+
+.footer-section{
+    background-color: #FBF8F3;
+}
+
+.footer-box{
+    display: flex;
+    justify-content: space-between;
+    padding: 4rem;
+}
+
+.footer-links-section{
+    display: flex;
+}
+
+.footer-links{
+    margin-right: 50px;
+}
+
+.footer-about h3{
+    margin-bottom: 10px;
+}
+
+.footer-about p{
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.footer-links h3{
+    margin-bottom: 10px;
+}
+
+.footer-links p{
+    font-weight: 400;
+    font-size: 1.1rem;
+    line-height: 2;
+}
+
+.footer-text{
+    margin-top: 40px;
+}
+
+@media screen and (max-width: 900px){
+    body{
+        margin: 0;
+        padding: 0;
+    }
+
+    .hero-page{
+        width: 100vh
+    }
+
+
+    .home-section{
+        flex-wrap: wrap-reverse;
+        width: 100%;
+    }
+
+    .home-image img{
+        width: 700px;
+        float:none
+    }
+
+    .home-content{
+        flex-basis: 70%;
+        margin: auto;
+        text-align: left;
+    }
+    
+    .home-image{
+        flex-basis: 70%;
+        margin: auto;
+    }
+    .rating{
+        display: none; 
+    }
+
+    .heading {
+        font-size: 4rem;
+    }
+    .text{
+        font-size: 2rem;
+    }
+    .home-buttons{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .homeactiveLink {
+        margin-right: 0px;
+        font-size: 2.2rem;
+    }
+
+    .nonactiveHomeLink {
+        font-size: 2.2rem;
+    }
+
+    .text-feat {
+        font-size: 1.5rem;
+    }
+
+    .homeFeatures img {
+        width: 50px;
+    }
+
+}

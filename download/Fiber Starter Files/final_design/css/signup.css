@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Inter';
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.signup-page{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.signup-section{
+    flex-basis: 50%;
+    height: 100vh;
+    padding-top: 3rem ;
+    padding-left: 7rem;
+    padding-right: 7rem;
+
+}
+
+.heading{
+    margin-bottom: 40px;
+}
+
+.main-heading{
+    margin-bottom: 40px;
+    font-size: 2.5rem;
+}
+.input{
+    border: 1px solid #E2E2E2;
+    padding: 1rem;
+    width: 500px;
+    font-size: 1rem;
+    color: #C9C9CA;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+#checkbox{
+    margin-right: 5px;
+}
+
+.check-tex{
+    font-size: 1rem;
+    
+}
+.signup-image{
+    flex-basis: 50%;
+    background-color: #5419D9;
+    height: 100vh;
+    color: #ffffff;
+    padding-top: 7rem ;
+    padding-left: 9rem;
+}
+.signup-link{
+    margin-left: 20px;
+    font-size: 17px;
+    color: #5419D9;
+    font-weight: 800;
+}
+.button-signup{
+    font-size: 20px;
+    padding: 1rem;
+    border-radius: 5px;
+    width: 500px;
+    background-color: #5419D9;
+    font-weight: 700;
+    color: #ffffff;
+    margin-top: 20px;
+}
+
+.text{
+    width: 500px;
+    text-align: center;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.signin-link{
+    text-decoration: none;
+    color: #5419D9;
+}
+
+.signup-image img{
+    width: 500px;
+}
+.signup-image-heading{
+    width: 500px;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.signup-image-text{
+    width: 500px;
+    text-align: center;
+    margin-bottom: 10px;
+    color: #ccc0eb;
+    font-weight: 500;
+}
+
+.dot {
+    height: 13px;
+    width: 13px;
+    background-color: #A587FF;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+  .dot-div{
+      width: 500px;
+      text-align: center;
+  }
+
+  .active-dot{
+        background-color: #ffffff;
+        height: 13px;
+        width: 13px;
+        border-radius: 50%;
+        display: inline-block;
+  }
+
+  
